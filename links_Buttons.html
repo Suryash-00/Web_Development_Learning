@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+    <style>
+        .container{
+            border: 5px solid lightslategray;
+            background-color: lightsteelblue;
+            padding: 30px;
+            margin: auto;
+            width: 800px;
+        }
+        .btn{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: darkgray;
+            padding: 5px;
+            border: none;
+            cursor: pointer; /*appears cursor on every element*/
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        a{
+            text-decoration: none; /*excludes the underline and other stuff*/
+            color: black;
+        }
+        a:hover{
+            color: darkorange;
+            background-color: chocolate;
+        }
+        a:visited{
+            background-color: crimson;
+        }
+        a:active{
+            background-color: darkblue;
+        }
+        .btn:hover{
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is the heading</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus atque voluptas reiciendis, maiores sequi at, perferendis asperiores tempora totam deserunt obcaecati eveniet labore odit.
+            Dolorum amet deserunt consequatur voluptatum quis?</p>
+        <a href="https://www.google.com/" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

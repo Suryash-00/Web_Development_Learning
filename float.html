@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Zen Loop', cursive;
+        }
+
+        .container {
+            width: 800px;
+            background-color: indigo;
+            border: solid hotpink;
+            margin: 100px auto;
+        }
+
+        .items {
+            border: 5px solid darkorange;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 20px 12px;
+            background-color: darkslategray;
+        }
+
+        #fruits {
+            float: left;
+            width: 45%;
+        }
+
+        #computer {
+            float: left;
+            width: 45%;
+        }
+
+        #stationery {
+            clear: left;
+            /*float: left;*/
+            width: 100%;
+        }
+
+        p,
+        h3 {
+            text-align: left;
+        }
+
+        h2 {
+            margin: auto;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Welcome!</h2>
+        <div id="fruits" class="items">
+            <h3>Fruits</h3>
+            <p id="fruitsPara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis et quod
+                dolor?
+                Nulla incidunt quia doloremque quas eveniet ipsum quisquam molestiae! Ipsum nam mollitia odio. Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit.
+                Maiores culpa expedita mollitia! Officia amet delectus temporibus quibusdam eligendi, dolorum
+                asperiores? </p>
+        </div>
+        <div id="computer" class="items">
+            <h3>Computer</h3>
+            <p id="compPara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis et quod dolor?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus ut quam quidem fuga at ducimus suscipit doloribus dolor tempore ipsa?
+                Nulla incidunt quia doloremque quas eveniet ipsum quisquam molestiae! Ipsum nam mollitia odio.</p>
+        </div>
+        <div id="stationery" class="items">
+            <h3>Stationery</h3>
+            <p id="stationPara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis et quod
+                dolor?
+                Nulla incidunt quia doloremque quas eveniet ipsum quisquam molestiae! Ipsum nam mollitia odio.</p>
+        </div>
+    </div>
+</body>
+
+</html>
